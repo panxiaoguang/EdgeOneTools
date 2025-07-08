@@ -1,6 +1,8 @@
-# DevTools 开发者工具箱(使用EdgeOne部署)
+# EdgeOne部署的在线工具箱
 
-一个集成了常用开发工具的在线工具箱，包括GPT 智能对话、代码格式化、颜色选择器、二维码生成/解析等功能。
+**本项目Fork了[Developer-Tools](https://github.com/FunEnn/Developer-Tools)的代码并做了修改，感谢作者FunEnn的分享。**
+
+一个集成了常用开发工具的在线工具箱。
 
 [在线体验](https://devtools.xiaohanys.so.kg/)
 
@@ -9,22 +11,26 @@
 ## 🚀 功能特性
 
 ### 编码工具
+
 - Base64 编解码
 - JWT Token 解析
 - Hash 计算工具
 - 正则表达式测试
 
 ### 样式工具
+
 - 颜色选择器/调色板
 - 排版工具
 - 时间格式转换
 
 ### 实用工具
+
 - 二维码生成/解析
 - Emoji 选择器
 - Github CDN: 输入Github链接转换为CDN静态资源
 
 ### 数据工具
+
 - 数据可视化
   - 支持多种图表类型：折线图、柱状图、饼图、雷达图、散点图、玫瑰图
   - 内置数据模板：销售数据、人口分布、技能评估
@@ -33,12 +39,12 @@
   - 响应式布局
 
 ### 生信工具
+
 - 根据位置获取基因组序列
 - 根据基因组序列获取基因位置
 - 修改序列（反向互补，翻译）
 - 双序列比对
 
-  
 ## 🛠️ 技术栈
 
 - React 18
@@ -60,6 +66,7 @@ npm install -g edgeone
 ```
 
 ### 启动开发服务器
+
 ```bash
 # 启动前端
 npm run dev
@@ -69,6 +76,7 @@ edgeone pages dev
 ```
 
 ### 构建项目
+
 ```bash
 npm run build
 ```

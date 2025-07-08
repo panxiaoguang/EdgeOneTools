@@ -63,7 +63,7 @@ export const DevTools = ({ tools }: DevToolsProps) => {
               {/* 右侧操作区 */}
               <div className="flex items-center gap-3">
                 <a
-                  href="https://github.com/panxiaoguang/Developer-Tools"
+                  href="https://github.com/panxiaoguang/EdgeOneTools"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 px-4 py-2 rounded-lg 
@@ -174,7 +174,7 @@ export const DevTools = ({ tools }: DevToolsProps) => {
               <span>版本 1.0.0</span>
               <span>•</span>
               <a
-                href="https://github.com/FunEnn/Developer-Tools"
+                href="https://github.com/panxiaoguang/EdgeOneTools"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
