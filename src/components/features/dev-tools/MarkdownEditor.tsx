@@ -317,7 +317,7 @@ export const MarkdownEditor = () => {
       </div>
 
       {/* 编辑器区域 */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 h-[calc(100vh-16rem)]">
+      <div className={!isPreview ? "grid grid-cols-1 lg:grid-cols-2 gap-4 h-[calc(100vh-16rem)]" : "grid grid-cols-1 lg:grid-cols-1 gap-4 h-[calc(100vh-16rem)]"}>
         {/* 编辑器 */}
         {!isPreview && (
           <div className="h-full">
