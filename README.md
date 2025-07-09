@@ -1,6 +1,8 @@
 # EdgeOne部署的在线工具箱
 
-**本项目Fork了[Developer-Tools](https://github.com/FunEnn/Developer-Tools)的代码并做了修改，感谢作者FunEnn的分享。**
+**本项目Fork了[Developer-Tools](https://github.com/FunEnn/Developer-Tools)的代码并做了修改，感谢作者FunEnn的分享。** 并使用Claude Code添加新功能。
+
+
 
 一个集成了常用开发工具的在线工具箱。
 
@@ -51,8 +53,6 @@
 - TypeScript
 - React Router v6
 - Tailwind CSS
-- OpenAI API
-- Monaco Editor
 - Lucide Icons
 - Recharts
 
